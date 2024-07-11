@@ -15,3 +15,7 @@ console.log("Mi nulo es: " + miNulo);
 
 let miUndefined = undefined; // ausencia de valor
 console.log("Mi undefined es: " + miUndefined);
+
+// Como saber que tipo de dato es una variable
+console.log(typeof miEntero);
+console.log(typeof miNombre);
