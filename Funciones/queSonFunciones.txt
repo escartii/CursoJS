@@ -1,0 +1,22 @@
+// Una función es un bloque de código reutilizable, que realiza
+// una tarea en particular.
+// Una función puede tener parametros de entrada y también de salida.
+
+// Ejemplo sumar dos valores - necesitamos dos valores de entrada. (a,b)
+
+// Necesidad de las funciones
+// un programa de muchas líneas de codigo buscaremos dividirlo en funciones más pequeñas,
+// con objetivos muy claros. Estrategia divide y vencerás.
+
+// Diferencia entre Parametros y Argumentos.
+// La variable que envíamos a la función se le llama argumento (desde el programa main)
+// el parametro es la variable local al metodo de imprimir.
+
+// Diferencia entre Procedimiento y Funcion.
+// un procedimiento no devuelve ningun valor, puede mostrar la salida a la consola
+// pero no devuelve ningun valor, así como si lo hace una función.
+
+// Tipos de funciones
+    -Funciones definidades por el usuario
+    -Funciones Incorporadas (conocidas como Built-in)
+    Ej: Funciones de cadenas de texto, funciones matemáticas.
