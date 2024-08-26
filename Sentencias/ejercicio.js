@@ -8,3 +8,4 @@ if (edadPersona >= EDAD_ADULTO) {
 } else {
     console.log(`la persona con edad: ${edadPersona} es menor`)
 }
+
