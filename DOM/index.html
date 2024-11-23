@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1 id="titulo"> Ejemplo DOM con JavaScript</h1>
+    <p id="parrafo"> Saludos </p>
+
+    <script>
+        // si pongo innerHTML, accedo al valor del titulo, si no devuelve todo el objeto
+        let titulo = document.getElementById('titulo').innerHTML;
+        console.log("valor: " + titulo);
+        let parrafo = document.getElementById("parrafo").innerHTML;
+        console.log("valor del parrafo: " + parrafo);
+        
+    </script>
+</body>
+</html>
