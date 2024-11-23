@@ -8,3 +8,4 @@ for (let i = 0; i < numeros.length; i++){
     contarNumeros++;
 }
 console.log(`total de valores dentro del array: ${contarNumeros}`)
+
