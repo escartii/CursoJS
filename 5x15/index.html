@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+    <title>5x15 Drag & Drop</title>
+
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <header>
+        <h1>5 x 15 - Prototipo Drag & Drop</h1>
+    </header>
+
+    <main>
+        <section class="pieces-container">
+            <h2>Fichas Disponibles</h2>
+            <div class="pieces">
+                <!-- Ejemplo de fichas -->
+                <div class="piece" draggable="true" data-type="A">A</div>
+                <div class="piece" draggable="true" data-type="B">B</div>
+                <div class="piece" draggable="true" data-type="C">C</div>
+                <div class="piece" draggable="true" data-type="D">D</div>
+            </div>
+        </section>
+
+        <section class="board-container">
+            <h2>Tablero (5 x 15)</h2>
+            <div class="board">
+                <!-- Generaremos celdas dinamicamente con JS o directamente en HTML -->
+                <!-- 5 columnas x 15 filas = 75 celdas -->
+                <!-- Cada celda tendrá la clase 'cell' y podrá recibir fichas -->
+                <!-- Puedes generarlo manualmente o usando un loop en JS. Para simplicidad, lo hacemos aquí: -->
+                <!-- Filas: 15, Columnas: 5 -->
+                <!-- Vamos a darle un data-row y data-col a cada cell para identificarla -->
+                <!-- fila 0 a 14, columna 0 a 4 -->
+                <!-- Esto se podría generar con JS, pero aquí lo haremos estático para ejemplo. -->
+
+                <!-- Fila 0 -->
+                <div class="cell" data-row="0" data-col="0"></div>
+                <div class="cell" data-row="0" data-col="1"></div>
+                <div class="cell" data-row="0" data-col="2"></div>
+                <div class="cell" data-row="0" data-col="3"></div>
+                <div class="cell" data-row="0" data-col="4"></div>
+                <!-- Fila 1 -->
+                <div class="cell" data-row="1" data-col="0"></div>
+                <div class="cell" data-row="1" data-col="1"></div>
+                <div class="cell" data-row="1" data-col="2"></div>
+                <div class="cell" data-row="1" data-col="3"></div>
+                <div class="cell" data-row="1" data-col="4"></div>
+                <!-- ... Repetir hasta fila 14 -->
+                <!-- Para ahorrar espacio, suponemos que esto se repite -->
+                <!-- Normalmente generarías este grid usando JavaScript -->
+
+                <!-- Agrega las filas restantes -->
+                <!-- Aquí usamos un pequeño truco para no pegar todo manualmente:
+                     Copia y pega el bloque de 5 celdas tantas veces como necesites (total 15 filas).
+                     En una implementación real, generarlo con JS es más limpio. 
+                -->
+
+                <!-- Filas 2 a 14, por brevedad -->
+                <!-- Fila 2 -->
+                <div class="cell" data-row="2" data-col="0"></div>
+                <div class="cell" data-row="2" data-col="1"></div>
+                <div class="cell" data-row="2" data-col="2"></div>
+                <div class="cell" data-row="2" data-col="3"></div>
+                <div class="cell" data-row="2" data-col="4"></div>
+                <!-- Fila 3 -->
+                <div class="cell" data-row="3" data-col="0"></div>
+                <div class="cell" data-row="3" data-col="1"></div>
+                <div class="cell" data-row="3" data-col="2"></div>
+                <div class="cell" data-row="3" data-col="3"></div>
+                <div class="cell" data-row="3" data-col="4"></div>
+                <!-- Fila 4 -->
+                <div class="cell" data-row="4" data-col="0"></div>
+                <div class="cell" data-row="4" data-col="1"></div>
+                <div class="cell" data-row="4" data-col="2"></div>
+                <div class="cell" data-row="4" data-col="3"></div>
+                <div class="cell" data-row="4" data-col="4"></div>
+                <!-- Fila 5 -->
+                <div class="cell" data-row="5" data-col="0"></div>
+                <div class="cell" data-row="5" data-col="1"></div>
+                <div class="cell" data-row="5" data-col="2"></div>
+                <div class="cell" data-row="5" data-col="3"></div>
+                <div class="cell" data-row="5" data-col="4"></div>
+                <!-- Fila 6 -->
+                <div class="cell" data-row="6" data-col="0"></div>
+                <div class="cell" data-row="6" data-col="1"></div>
+                <div class="cell" data-row="6" data-col="2"></div>
+                <div class="cell" data-row="6" data-col="3"></div>
+                <div class="cell" data-row="6" data-col="4"></div>
+                <!-- Fila 7 -->
+                <div class="cell" data-row="7" data-col="0"></div>
+                <div class="cell" data-row="7" data-col="1"></div>
+                <div class="cell" data-row="7" data-col="2"></div>
+                <div class="cell" data-row="7" data-col="3"></div>
+                <div class="cell" data-row="7" data-col="4"></div>
+                <!-- Fila 8 -->
+                <div class="cell" data-row="8" data-col="0"></div>
+                <div class="cell" data-row="8" data-col="1"></div>
+                <div class="cell" data-row="8" data-col="2"></div>
+                <div class="cell" data-row="8" data-col="3"></div>
+                <div class="cell" data-row="8" data-col="4"></div>
+                <!-- Fila 9 -->
+                <div class="cell" data-row="9" data-col="0"></div>
+                <div class="cell" data-row="9" data-col="1"></div>
+                <div class="cell" data-row="9" data-col="2"></div>
+                <div class="cell" data-row="9" data-col="3"></div>
+                <div class="cell" data-row="9" data-col="4"></div>

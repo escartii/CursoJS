@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>H1 con Cajas</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      gap: 20px;
+      height: 100vh;
+    }
+
+    .outer-box {
+      background-color: #4CAF50;
+      padding: 20px;
+      border: 3px solid #388E3C;
+      border-radius: 8px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .middle-box {
+      background-color: #FFEB3B;
+      padding: 15px;
+      border: 3px dashed #FBC02D;
+      border-radius: 8px;
+    }
+
+    .inner-box {
+      background-color: #03A9F4;
+      padding: 10px;
+      border: 2px dotted #0288D1;
+      border-radius: 8px;
+    }
+
+    .side-box {
+      background-color: #E91E63;
+      padding: 10px;
+      border: 2px solid #C2185B;
+      border-radius: 8px;
+      text-align: center;
+      color: white;
+      font-weight: bold;
+    }
+
+    h1 {
+      margin: 0;
+      color: #ffffff;
+      font-size: 24px;
+      text-align: center;
+    }
+
+    p {
+      margin: 0;
+      color: #212121;
+      font-size: 16px;
+    }
+
+    button {
+      padding: 10px 20px;
+      background-color: #FF5722;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+
+    button:hover {
+      background-color: #E64A19;
+    }
+  </style>
+</head>
+<body>
+  <div class="outer-box">
+    <div class="middle-box">
+      <div class="inner-box">
+        <h1>¡Prepárate para JavaScript!</h1>
+      </div>
+    </div>
+  </div>
+
+  <div class="side-box">
+    <p>Texto para modificar con JavaScript</p>
+  </div>
+
+  <div class="side-box">
+    <p>Otra caja con texto editable</p>
+  </div>
+
+  <button id="changeTextButton">¡Cambia el texto!</button>
+  <script src="index.js"></script>
+</body>
+</html>
